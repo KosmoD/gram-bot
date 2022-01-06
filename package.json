@@ -1,0 +1,22 @@
+{
+  "name": "gram",
+  "version": "1.0.0",
+  "description": "Best Discord Bot",
+  "main": "gram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ansh Anoop",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.9.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.25.2",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "got": "^12.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.1"
+  }
+}
