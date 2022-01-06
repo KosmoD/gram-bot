@@ -38,7 +38,7 @@ module.exports = {
         })();
         client.user.setPresence({
             activities: [{
-                name: "in your server!"
+                name: "with Cuppy"
             }],
             status: "online",
         });
