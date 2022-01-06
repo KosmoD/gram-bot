@@ -21,7 +21,7 @@ module.exports = class CMD extends Command {
         
         if (!interaction.member.permissions.has("MANAGE_MESSAGES"))
         return interaction.reply(
-          "**You Don't Have The Permission To Use This Cmd! (users with MANAGE MESSAGE PERMISSION can use it.)**"
+          "**You Don't Have The Permission To Use This Cmd! (Users with MANAGE MESSAGE PERMISSION can use it.)**"
         );
         
         
